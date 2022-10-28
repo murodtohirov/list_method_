@@ -10,4 +10,11 @@
         list: return answer
 */
 
-void main() {}
+List  func(List  number, List number1) {
+  number.addAll(number1);
+  return number;
+}
+
+void main() {
+  print(func([1, 2, 3, 4], [5, 6, 7, 8]));
+}
